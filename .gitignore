@@ -2,4 +2,4 @@ eln-cache/*
 eshell/*
 *.swp
 auto-save-list/*
-.cache/
+.cache/*

@@ -4,23 +4,19 @@
 
 
 ;; Enlight startscreen
-(setopt initial-buffer-choice #'enlight)
-
-(use-package enlight
-  :custom
-  (enlight-content
-   (concat
-    (propertize "MENU" 'face 'highlight)
-    "\n"
-    (enlight-menu
-     '(("Org Mode"
-        ("Org Agenda — day" (lambda () (interactive) (org-agenda nil "a")) "a")
-        ("Open TODOs" (lambda () (interactive) (org-todo-list)) "t"))
-       ("Folders"
-        ("Downloads" (dired "~/Downloads") "d")
-        ("Coding" (dired "~/Documents/Coding") "c")))))))
+;;
+;; REMOVED FOR NOW. I AM GOING TO LEARN MORE ABOUT ORG MODE AND GETTING MAGIT WORKING BEFORE I GET A MENU ON THE START SCREEN.
+;;
 ;; ------------------------------------------
 ;; END OF Enlight config
+
+
+;; ORG Mode
+(add-to-list 'load-path "~/src/org-mode/lisp")
+(global-set-key (kbd "aC-c l") #'org-store-link)
+(global-set-key (kbd "C-c a") #'org-agenda)
+(global-set-key (kbd "C-c c") #'org-capture)
+;; END OF ORG Mode
 
 
 ;; MELPA package repository

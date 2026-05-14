@@ -13,7 +13,7 @@
 
 ;; ORG Mode
 (add-to-list 'load-path "~/src/org-mode/lisp")
-(global-set-key (kbd "aC-c l") #'org-store-link)
+(global-set-key (kbd "C-c l") #'org-store-link)
 (global-set-key (kbd "C-c a") #'org-agenda)
 (global-set-key (kbd "C-c c") #'org-capture)
 ;; END OF ORG Mode

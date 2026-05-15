@@ -12,7 +12,6 @@
 
 
 ;; ORG Mode
-(add-to-list 'load-path "~/src/org-mode/lisp")
 (global-set-key (kbd "C-c l") #'org-store-link)
 (global-set-key (kbd "C-c a") #'org-agenda)
 (global-set-key (kbd "C-c c") #'org-capture)
@@ -183,7 +182,7 @@
      "efcecf09905ff85a7c80025551c657299a4d18c5fcfedd3b2f2b6287e4edd659"
      "57a29645c35ae5ce1660d5987d3da5869b048477a7801ce7ab57bfb25ce12d3e"
      default))
- '(package-selected-packages '(cape corfu enlight orderless solarized-theme)))
+ '(package-selected-packages '(cape corfu enlight magit orderless solarized-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -6,17 +6,7 @@ My personal GNU Emacs config.
 
 Default Theme: Solarized Selenized Dark (https://emacsthemes.com/themes/solarized-selenized-dark)
 
-## Startup Menu w/ enlight
-
-The Menu holds commands and menu entries for faster use.
-
-MENU:
-- Org Mode
-  - Org Agenda - day
-  - Open TODOs
-- Folders
-  - Downloads
-  - Coding
+- ORG Mode keybinds added
 
 ## File Navigation w/ treemacs
 
@@ -31,3 +21,7 @@ NOTE: Python and JS mode-hooks exists, but are untested.
 - Orderless + Cape (extends autocomplete features)
 - Autocomplete UI : Corfu
   - Use TAB key to use corfu-next (next autocomplete option)
+
+## Magit
+
+Version Control added. Still learning more about Magit before I write more on it.

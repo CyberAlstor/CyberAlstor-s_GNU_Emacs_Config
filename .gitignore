@@ -3,3 +3,4 @@ eshell/*
 *.swp
 auto-save-list/*
 .cache/*
+transient/*

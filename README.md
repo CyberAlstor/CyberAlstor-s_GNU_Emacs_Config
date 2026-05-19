@@ -1,27 +1,28 @@
 # CyberAlstor's GNU Emacs Config
 
-My personal GNU Emacs config.
+This is my personal GNU Emacs configuration, designed to be as efficient as possible. I excluded features which I consider bloat in traditional code editors and included only those that promote programming and workflow efficiency.
 
 # Features
 
 Default Theme: Solarized Selenized Dark (https://emacsthemes.com/themes/solarized-selenized-dark)
 
-- ORG Mode keybinds added
-
-## File Navigation w/ treemacs
-
-NOTE: Still being configured and customized for further use.
-
-## Working autocomplete (C/C++).
+## Inline Autocomplete.
 
 NOTE: Python and JS mode-hooks exists, but are untested.
-
 - LSP server : Eglot
-  - Current hooks : C/C++, Python, JS
-- Orderless + Cape (extends autocomplete features)
+  - Language hooks : C/C++, Python, JS
 - Autocomplete UI : Corfu
-  - Use TAB key to use corfu-next (next autocomplete option)
+  - Use the <TAB> key to go to the next autocomplete option (M-x corfu-next).
 
-## Magit
+# Installed Packages:
+1. Melpa (packages)
+2. Eglot (LSP server) + Orderless + Cape (backend for autocomplete)
+5. Corfu (autocomplete UI)
+6. Enlight NOTE: CURRENTLY UNUSED, BUT IT IS INSTALLED
+7. Emacs-NeoTree (file tree explorer)
+8. Magit (Git VC)
+9. Diff-hl (highlights uncommited changes in file)
 
-Version Control added. Still learning more about Magit before I write more on it.
+# TODO:
+- [ ] Integrate Org-roam
+- [ ] Create an effiecnt Enlight Menu.

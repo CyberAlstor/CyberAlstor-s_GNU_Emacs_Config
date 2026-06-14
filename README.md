@@ -11,6 +11,8 @@ NOTE: Emacs has multiple config loading paths. Be sure to properly remove those 
 mv ~/.emacs.d ~/.emacs.d.bak/ # This is the case for my Gentoo installation, it may be different for you.
 cd ~/.config/
 git clone https://github.com/CyberAlstor/CyberAlstor-s_GNU_Emacs_Config.git emacs
+cp Emacs.gitignore ~/.gitignore_global # OR APPEND TO AN EXISTING FILE
+git config --global core.excludesfile ~/.gitignore_global # gitignore Emacs temp files
 ```
 
 # Installed Packages

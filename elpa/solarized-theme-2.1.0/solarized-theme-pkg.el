@@ -1,0 +1,2 @@
+;; Generated package description from solarized-theme.el  -*- no-byte-compile: t; lexical-binding:t -*-
+(define-package "solarized-theme" "2.1.0" "The Solarized color theme" '((emacs "24.1")) :commit "0972a0f1471ed67211b7c8918a3c049380050d7b" :authors '(("Bozhidar Batsov" . "bozhidar@batsov.dev")) :maintainer '("Bozhidar Batsov" . "bozhidar@batsov.dev") :keywords '("convenience" "themes" "solarized") :url "http://github.com/bbatsov/solarized-emacs")

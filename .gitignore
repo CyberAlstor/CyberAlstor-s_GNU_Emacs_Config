@@ -4,6 +4,5 @@ eshell/*
 auto-save-list/*
 .cache/*
 transient/*
-#*#
-#.*#
-*~
+#README.md#
+init.el~

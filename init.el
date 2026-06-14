@@ -4,8 +4,18 @@
 (load-theme 'solarized-dark t)
 
 
-;; MELPA
+;; REQUIRED PACKAGES
 (require 'package)
+(require 'corfu)
+(require 'orderless)
+(require 'cape)
+(require 'eglot)
+(require 'diff-hl)
+(require 'magit)
+(require 'neotree)
+
+
+;; MELPA
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
@@ -20,7 +30,6 @@
 
 
 ;; CORFU
-(require 'corfu)
 (global-corfu-mode)
 (setq corfu-cycle t
       corfu-auto t                      ;; pop up autocompletion window
@@ -32,18 +41,15 @@
 
 
 ;; ORDERLESS
-(require 'orderless)
 (setq completion-styles '(orderless basic)
       completion-category-defaults nil)
 
 
 ;; CAPE
-(require 'cape)
 (add-to-list 'completion-at-point-functions #'cape-file)
 
 
 ;; EGLOT LSP
-(require 'eglot)
 (setq eglot-autoshutdown t)             ;; stops server when current buffer closes
 ;; auto start languages:
 (add-hook 'python-mode-hook 'eglot-ensure)
@@ -53,15 +59,12 @@
 
 
 ;; DIFF-HL
-(require 'diff-hl)
-(require 'magit)
 (setq vc-handled-backends '(Git))
 (add-hook 'magit-post-refresh-hook 'diff-hl-magit-post-refresh)
 (global-diff-hl-mode)
 
 
 ;; NEOTREE
-(require 'neotree)
 (global-set-key (kbd "C-c n") 'neotree-toggle)
 (setq neo-theme (if (display-graphic-p) 'ascii))
 
@@ -77,7 +80,7 @@
    '("833ddce3314a4e28411edf3c6efde468f6f2616fc31e17a62587d6a9255f4633"
      default))
  '(package-selected-packages
-   '(cape corfu enlight magit neotree orderless solarized-theme)))
+   '(cape corfu enlight magit neotree orderless solarized-theme vterm)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

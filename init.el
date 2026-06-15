@@ -13,6 +13,7 @@
 (require 'diff-hl)
 (require 'magit)
 (require 'neotree)
+(require 'vterm)
 
 
 ;; MELPA

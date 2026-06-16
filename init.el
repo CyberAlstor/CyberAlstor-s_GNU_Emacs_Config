@@ -56,6 +56,7 @@
 (add-hook 'python-mode-hook 'eglot-ensure)
 (add-hook 'js-mode-hook 'eglot-ensure)
 (add-hook 'c++-mode-hook 'eglot-ensure)
+(add-hook 'c-mode-hook 'eglot-ensure)
 ;; ...add other hooks as needed
 
 

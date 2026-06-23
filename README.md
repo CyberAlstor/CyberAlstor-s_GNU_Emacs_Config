@@ -1,8 +1,8 @@
 # CyberAlstor's GNU Emacs Config
 
-This is my personal GNU Emacs configuration. It's designed to be efficient and minimalistic. I included only features that promote an efficient, flow-state workflow. Designed to work for me, and not against me.
+This is my personal GNU Emacs configuration. It's designed to be efficient and minimalistic. I included only features that promote an efficient, flow-state workflow. I generally did this to teach me more about GNU Emacs, handling its packages, and the E-lisp language. This was a super fun project, and I hope to continue configurating it. However, I have found myself leaning towards Doom Emacs for simplicity and ease-of-use reasons.
 
-You're welcome to copy my configuration, but this is what I've found to work for me. I have some criticisms towards "beginner friendly" configurations like DOOM and Spacemacs. I've found that they didn't teach me the E-lisp language, nor did they compliment my goals as a developer. This configuration was a result of that. This project truely tuaght me the value of configuring your own Emacs, and how it affects your workflow. I STRONGLY suggest that you experiment yourself from scratch with a basic init.el, so that you may have the wonderful learning experience I did.
+I strongly encourage you to configure your own Emacs configuration, it tuaght me a lot about how IDEs work, and I hope you learn that too. I may revist this configuration in the future.
 
 # Installation
 

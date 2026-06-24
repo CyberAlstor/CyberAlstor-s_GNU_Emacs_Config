@@ -1,4 +1,0 @@
-/home/GentooAlstor21/.config/emacs/elpa/vterm-20260528.1919/build/CMakeFiles/vterm-module.dir
-/home/GentooAlstor21/.config/emacs/elpa/vterm-20260528.1919/build/CMakeFiles/run.dir
-/home/GentooAlstor21/.config/emacs/elpa/vterm-20260528.1919/build/CMakeFiles/edit_cache.dir
-/home/GentooAlstor21/.config/emacs/elpa/vterm-20260528.1919/build/CMakeFiles/rebuild_cache.dir

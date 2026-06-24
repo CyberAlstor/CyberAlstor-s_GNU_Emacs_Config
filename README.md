@@ -26,6 +26,27 @@ You will also get a warning for Treemacs, but it is trivial, so it is okay to ig
 - Company
 - Flycheck
 
+# Common Keybinds:
+
+NOTE: This doesn't include vanilla Emacs keybinds. I epxect you to read and practice through the built-in Emacs Tutorial.
+
+- **Treemacs**
+  - Open/Close: C-x t t
+  - Select working/root dir: C-x t d
+- **Magit**
+  - Open Magit: C-x g
+  - Stage: s
+  - Unstage: u
+  - Commit: c c
+    - Finish commit: C-c C-c
+  - Fetch: f p
+  - Pull: F p
+  - Push: P p
+  - **Branching**
+    - Checkout: b b
+    - Create branch: b n
+    - Create branch & checkout: b c 
+
 # TODO:
 - [ ] Add org-roam
 - [ ] Create a startup menu

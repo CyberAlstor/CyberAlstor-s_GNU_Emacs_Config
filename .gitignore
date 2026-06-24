@@ -50,6 +50,7 @@ flycheck_*.el
 # undo-tree
 *.~undo-tree~
 
-# local cache
+# local cache and history
 .cache/
 eln-cache/
+transient/

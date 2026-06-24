@@ -5,3 +5,4 @@
 (require 'diff-hl)
 (require 'company)
 (require 'flycheck)
+(require 'vterm)

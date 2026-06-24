@@ -140,3 +140,5 @@
 (add-hook 'after-init-hook 'global-company-mode)
 ;; End of Company
 
+;; Vterm
+(global-set-key (kbd "C-c t") #'vterm)

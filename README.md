@@ -46,7 +46,7 @@ NOTE: This doesn't include vanilla Emacs keybinds. I epxect you to read and prac
     - Checkout: b b
     - Create branch: b n
     - Create branch & checkout: b c
--**Vterm**
+- **Vterm**
   - Open terminal: C-c t
 
 # TODO:

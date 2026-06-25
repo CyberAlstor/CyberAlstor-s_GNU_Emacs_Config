@@ -17,7 +17,7 @@
    '("4594d6b9753691142f02e67b8eb0fda7d12f6cc9f1299a49b819312d6addad1d"
      default))
  '(package-selected-packages
-   '(company diff-hl doom-themes flycheck treemacs-icons-dired
+   '(company diff-hl doom-themes flycheck nerd-icons treemacs-icons-dired
 	     treemacs-magit treemacs-persp treemacs-projectile
 	     treemacs-tab-bar vterm)))
 (custom-set-faces
@@ -25,4 +25,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:family "Liberation Mono" :foundry "1ASC" :slant normal :weight regular :height 120 :width normal)))))

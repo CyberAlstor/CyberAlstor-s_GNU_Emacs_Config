@@ -1,3 +1,4 @@
+;; Doom-themes
 (use-package doom-themes
   :ensure t
   :custom
@@ -17,6 +18,7 @@
   (doom-themes-treemacs-config)
   ;; Corrects (and improves) org-mode's native fontification.
   (doom-themes-org-config))
+;; End of Doom-themes
 
 
 ;; Treemacs
@@ -161,5 +163,7 @@
 (add-hook 'after-init-hook 'global-company-mode)
 ;; End of Company
 
+
 ;; Vterm
 (global-set-key (kbd "C-c t") #'vterm)
+;; End of Vterm

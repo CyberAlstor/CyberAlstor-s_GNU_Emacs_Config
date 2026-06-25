@@ -22,6 +22,7 @@ git clone https://github.com/CyberAlstor/CyberAlstor-s_GNU_Emacs_Config.git emac
 Melpa package archive is included for more packages.
 You will also get a warning for Treemacs, but it is trivial, so it is okay to ignore it.
 
+- Nerd-icons
 - Doom-themes
 - Treemacs
 - Magit

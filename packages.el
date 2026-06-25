@@ -1,5 +1,6 @@
 ;; Required packages
 
+(require 'nerd-icons)
 (require 'doom-themes)
 (require 'treemacs)
 (require 'magit)

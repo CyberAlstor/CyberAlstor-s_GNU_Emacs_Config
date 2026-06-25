@@ -17,9 +17,12 @@ git clone https://github.com/CyberAlstor/CyberAlstor-s_GNU_Emacs_Config.git emac
 
 # Install These Packages
 
+**Default Theme:** doom-tokyo-night
+
 Melpa package archive is included for more packages.
 You will also get a warning for Treemacs, but it is trivial, so it is okay to ignore it.
 
+- Doom-themes
 - Treemacs
 - Magit
 - Diff-hl
@@ -28,7 +31,7 @@ You will also get a warning for Treemacs, but it is trivial, so it is okay to ig
 
 # Common Keybinds:
 
-NOTE: This doesn't include vanilla Emacs keybinds. I epxect you to read and practice through the built-in Emacs Tutorial.
+**NOTE:** This doesn't include vanilla Emacs keybinds. I epxect you to read and practice through the built-in Emacs Tutorial.
 
 - **Treemacs**
   - Open/Close: C-x t t
@@ -52,5 +55,5 @@ NOTE: This doesn't include vanilla Emacs keybinds. I epxect you to read and prac
 # TODO:
 - [ ] Add org-roam
 - [ ] Create a startup menu
-- [ ] Change default color theme
+- [x] Change default color theme
 

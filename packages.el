@@ -1,5 +1,6 @@
 ;; Required packages
 
+(require 'doom-themes)
 (require 'treemacs)
 (require 'magit)
 (require 'diff-hl)

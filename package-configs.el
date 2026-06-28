@@ -28,6 +28,11 @@
 ;; End of Org Mode
 
 
+;; display-line-numbers-mode
+(global-display-line-numbers-mode t)
+;;
+
+
 ;; Treemacs
 (use-package treemacs
   :ensure t
